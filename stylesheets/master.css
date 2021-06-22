@@ -5,3 +5,8 @@
   font-weight: normal;
   src: url('../fonts/Helvetica.ttf');
 }
+
+.header {
+  width: 100vw;
+  position: fixed;
+}
