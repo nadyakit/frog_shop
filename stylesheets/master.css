@@ -32,6 +32,8 @@ body {
   position: fixed;
   background: #F5F5E9;
   opacity: .4;
+  height: auto;
+  border-bottom: 1px solid #602D91;
 }
 .menu {
   position: relative;
@@ -40,7 +42,7 @@ body {
   justify-content: space-around;
   align-items: center;
   grid-area: menu;
-  height: 9vh;
+  height: 67px;
   margin-left: 2.5vw;
   margin-right: 2.5vw;
 }
@@ -50,7 +52,7 @@ body {
   color: #F5F5E9;
   background-color: #602D91;
   width: 23vw !important;
-  padding: 1vh 0;
+  padding: 7px 0;
   text-align: center;
   display: inline-block;
   border-radius: 30px;
@@ -63,7 +65,7 @@ body {
   display: inline-block;
   text-align: center;
   width: 23vw !important;
-  padding: 1vh 0;
+  padding: 7px 0;
   border-radius: 30px;
   border: 1px solid #602D91;
 }
