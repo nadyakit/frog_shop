@@ -7,6 +7,12 @@
 }
 
 /* ПОДЛОЖКА */
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: .4;
+}
 
 body {
   width: 100%;
@@ -14,12 +20,6 @@ body {
   margin: 0;
   background-color: #F5F5E9;
   font-family: "Helvetica";
-}
-.background {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  opacity: .4;
 }
 .wrapper {
   position: relative;
@@ -53,13 +53,17 @@ body {
   padding: 1vh 0;
   text-align: center;
   display: inline-block;
+  border-radius: 30px;
 }
 .shop, .who_we_are, .events {
   text-decoration: none;
   font-size: 18px;
   color: #602D91;
+  background-color: #F5F5E9;
   display: inline-block;
   text-align: center;
   width: 23vw !important;
   padding: 1vh 0;
+  border-radius: 30px;
+  border: 1px solid #602D91;
 }
