@@ -30,20 +30,36 @@ body {
 .header {
   width: 100vw;
   position: fixed;
+  background: #F5F5E9;
+  opacity: .4;
 }
 .menu {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  
+  align-items: center;
+  grid-area: menu;
+  height: 9vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
 }
 .frog {
   text-decoration: none;
   font-size: 18px;
-  color: #602D91;
+  color: #F5F5E9;
+  background-color: #602D91;
+  width: 23vw !important;
+  padding: 1vh 0;
+  text-align: center;
+  display: inline-block;
 }
 .shop, .who_we_are, .events {
   text-decoration: none;
   font-size: 18px;
   color: #602D91;
+  display: inline-block;
+  text-align: center;
+  width: 23vw !important;
+  padding: 1vh 0;
 }
