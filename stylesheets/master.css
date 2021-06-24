@@ -172,6 +172,10 @@ body {
   position: absolute;
   display: inline-block;
 }
+.events_first:hover {
+  box-shadow: 0 4px 50px rgba(255,63,62,0.50);
+  -webkit-transition: 0.15s linear;
+}
 .h3_first > a {
   text-decoration: none;
   font-size: 36px;
