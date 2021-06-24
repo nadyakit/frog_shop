@@ -389,3 +389,19 @@ body {
   position: relative;
   height: auto;
 }
+.space {
+  position: relative;
+  height: 42vw;
+}
+.s_picture {
+  background-image: url("../images/space_main.svg");
+  width: 100vw;
+  height: 100vw;
+  opacity: .4;
+  top: 3.5vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
+}
