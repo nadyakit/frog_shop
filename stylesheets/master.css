@@ -304,3 +304,15 @@ body {
   position: relative;
   height: auto;
 }
+.last_season_colletions {
+  position: relative;
+  height: 55vw;
+}
+.h2_lsc > a {
+  position: absolute;
+  display: inline-block;
+  left: 1.8vw;
+  top: 0.8vw;
+  color: #602D91;
+  text-decoration: none;
+  font-size: 48px;
