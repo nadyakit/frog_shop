@@ -488,3 +488,13 @@ button:active {
   outline: none;
   background-color: rgba(206, 192, 210, 0.45);
 }
+
+.z_ready {
+  margin-top: 0.8vw;
+  font-size: 14px;
+  visibility: hidden;
+}
+
+.button_zayavka {
+  
+}
