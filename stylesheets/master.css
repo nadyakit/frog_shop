@@ -316,3 +316,40 @@ body {
   color: #602D91;
   text-decoration: none;
   font-size: 48px;
+}
+.lsc_1 {
+  background-image: url("../images/last_collection_1.svg");
+  width: 31.05vw;
+  height: 40.2vw;
+  top: 6vw;
+  left: 2vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
+  transition: 0.1s linear;
+}
+.lsc_1:hover {
+  box-shadow: 0 4px 50px rgba(255,63,62,0.50);
+  transition: 0.15s linear;
+}
+.h3_lsc1 > a {
+  text-decoration: none;
+  font-size: 36px;
+  color: #602D91;
+  position: absolute;
+  display: inline-block;
+  left: 2vw;
+  top: 46.7vw;
+}
+.date_lsc1 {
+  color: #602D91;
+  font-size: 18px;
+  position: absolute;
+  top: 3vw;
+}
+.h3_otstup_lsc1 {
+  position: relative;
+  height: auto;
+}
