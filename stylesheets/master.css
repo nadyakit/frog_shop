@@ -268,3 +268,39 @@ body {
   position: relative;
   height: auto;
 }
+.events_fourth {
+  background-image: url("../images/our_events_fourth.svg");
+  width: 28.1vw;
+  height: 42.25vw;
+  top: 10.6vw;
+  left: 65.5vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
+  transition: 0.1s linear;
+}
+.events_fourth:hover {
+  box-shadow: 0 4px 50px rgba(255,63,62,0.50);
+  transition: 0.15s linear;
+}
+.h3_fourth > a {
+  text-decoration: none;
+  font-size: 36px;
+  color: #602D91;
+  position: absolute;
+  display: inline-block;
+  left: 65.5vw;
+  top: 53.5vw;
+}
+.date4 {
+  color: #602D91;
+  font-size: 18px;
+  position: absolute;
+  top: 5.5vw;
+}
+.h3_otstup_4 {
+  position: relative;
+  height: auto;
+}
