@@ -182,4 +182,10 @@ body {
 }
 .date {
   font-size: 18px;
+  position: absolute;
+  top: 5.5vw;
+}
+.h3_otstup {
+  position: relative;
+  height: auto;
 }
