@@ -437,6 +437,8 @@ body {
   width: 33vw;
   background-color: #F5F5E9;
   border-right: 1px solid #602D91;
+  text-align: center;
+  color: #602D91;
 }
 .logo_hse {
   border-right: none;
@@ -454,10 +456,17 @@ body {
    width: 25vw;
    height: 34px;
    margin: 12px auto 2px;
-   font-size: 18px;
-   color: : rgba(96, 45, 145, 0.3);
+   font-size: 17px;
    background-color: #F5F5E9;
    border: 1px solid #602D91;
    border-radius: 50px;
-   
+   text-align: center;
+   color: rgba(96, 45, 145, 0.5);
+ }
+
+ input::-webkit-input-placeholder { color: rgba(96, 45, 145, 0.5); }
+
+ input[type=text]:focus {
+   background-color: rgba(206, 192, 210, 0.45);
+   outline: none;
  }
