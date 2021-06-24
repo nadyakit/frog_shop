@@ -425,7 +425,14 @@ body {
 }
 .footer {
   display: grid;
+  flex-wrap: wrap;
+  grid-area: footer;
   position: relative;
   width: 100vw;
-
+  height: 20vw;
+  border-top: 1px solid #602D91;
+}
+.form, .logo_me, .logo_hse {
+  position: relative;
+  width: 33vw;
 }
