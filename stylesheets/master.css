@@ -92,7 +92,7 @@ body {
 }
 .hello {
   position: relative;
-  height: auto;
+  height: 75vw;
 }
 .hello_frog_1 {
   background-image: url("../images/hello_frog_1.svg");
