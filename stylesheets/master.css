@@ -69,3 +69,11 @@ body {
   border-radius: 30px;
   border: 1px solid #602D91;
 }
+.logo {
+  padding: 10px 0 15px 0;
+  text-align: center;
+  background-color: #F5F5E9;
+}
+.logo_picture {
+  width: 5vw;
+}
