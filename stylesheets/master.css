@@ -492,17 +492,13 @@ button:active {
 .z_ready {
   margin-top: 0.8vw;
   font-size: 14px;
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s, visibility 0s;
+
 }
 
-.button_zayavka {
-  animation: bz_a 5s steps(1) ease-in-out;
-  animation-play-state: paused;
-}
-
-@keyframes bz_a {
-  0% {opacity: 0;}
-  25% {opacity: 0.5;}
-  50% {opacity: 0.75;}
-  100% {opacity: 1;}
+.z_ready.hidden {
+    opacity: 1;
+    visibility: hidden;
+    transition: opacity 1s, visibility 0s 1s;
 }
