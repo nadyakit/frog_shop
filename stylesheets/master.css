@@ -43,9 +43,10 @@ body {
   width: 100vw;
   position: fixed;
   background: #F5F5E9;
-  opacity: .4;
+  /* opacity: .4; */
   height: auto;
   border-bottom: 1px solid #602D91;
+  z-index: 2;
 }
 .menu {
   position: relative;
@@ -91,17 +92,38 @@ body {
 }
 .hello {
   position: relative;
+  height: auto;
 }
 .hello_frog_1 {
   background-image: url("../images/hello_frog_1.svg");
-  width: 10.8vw;
-  height: 18vw;;
+  width: 15vw;
+  height: 18vw;
+  left: 18.6vw;
+  top: 23.6vw;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: inline-block;
+  position: absolute;
 }
 .hello_frog_2 {
+  background-image: url("../images/hello_frog_2.svg");
   width: 15vw;
-  margin-top: 24%;
-  margin-left: 10%;
+  height: 22vw;
+  top: 20vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
+
+}
+.hello_frog_3 {
+  background-image: url("../images/hello_frog_3.svg");
+  width: 15vw;
+  height: 22vw;
+  top: 20vw;
+  left: 10vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
 }
