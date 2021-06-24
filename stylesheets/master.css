@@ -423,3 +423,9 @@ body {
   top: 1.8vw;
   text-align: justify;
 }
+.footer {
+  display: grid;
+  position: relative;
+  width: 100vw;
+
+}
