@@ -6,6 +6,18 @@
   src: url('../fonts/Helvetica.ttf');
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5E9;
+    height: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #602D91;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3C1462;
+}
+
 /* ПОДЛОЖКА */
 .background {
   width: 100%;
