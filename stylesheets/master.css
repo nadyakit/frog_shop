@@ -470,3 +470,21 @@ body {
    background-color: rgba(206, 192, 210, 0.45);
    outline: none;
  }
+
+button {
+  font-size: 17px;
+  width: 25vw;
+  height: 34px;
+  margin: 12px auto 2px;
+  background-color: #F5F5E9;
+  border: 1px solid #602D91;
+  border-radius: 50px;
+  text-align: center;
+  color: #602D91;
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
+  background-color: rgba(206, 192, 210, 0.45);
+}
