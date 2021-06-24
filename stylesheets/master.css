@@ -93,10 +93,12 @@ body {
   position: relative;
 }
 .hello_frog_1 {
-  position: relative;
+  background-image: url("../images/hello_frog_1.svg");
   width: 10.8vw;
-  margin-top: 344px;
-  margin-left: 18.8vw;
+  height: 18vw;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
 }
 .hello_frog_2 {
   width: 15vw;
