@@ -87,5 +87,19 @@ body {
   background-color: #F5F5E9;
 }
 .logo_picture {
-  width: 5vw;
+  max-width: 5vw;
+}
+.hello {
+  position: relative;
+}
+.hello_frog_1 {
+  position: relative;
+  width: 10.8vw;
+  margin-top: 45.5vh;
+  margin-left: 18.8vw;
+}
+.hello_frog_2 {
+  width: 15vw;
+  margin-top: 24%;
+  margin-left: 10%;
 }
