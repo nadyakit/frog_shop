@@ -151,12 +151,13 @@ body {
   position: relative;
   height: 62vw;
 }
-.h2_our_events {
+.h2_our_events > a {
   position: absolute;
   display: inline-block;
   left: 1.8vw;
   top: 1.8vw;
   color: #602D91;
+  text-decoration: none;
   font-size: 48px;
 }
 .events_first {
@@ -166,7 +167,19 @@ body {
   top: 14.5vw;
   left: 2vw;
   background-repeat: no-repeat;
+  text-decoration: none;
   background-size: contain;
   position: absolute;
   display: inline-block;
+}
+.h3_first > a {
+  text-decoration: none;
+  font-size: 36px;
+  position: absolute;
+  display: inline-block;
+  left: 2vw;
+  top: 33vw;
+}
+.date {
+  font-size: 18px;
 }
