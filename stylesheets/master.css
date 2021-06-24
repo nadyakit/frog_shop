@@ -441,3 +441,11 @@ body {
 .logo_hse {
   border-right: none;
 }
+.h4_form {
+  color: #602D91;
+  position: relative;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  padding-top: 4vw;
+}
