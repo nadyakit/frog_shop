@@ -502,3 +502,32 @@ button:active {
     visibility: hidden;
     transition: opacity 1s, visibility 0s 1s;
 }
+
+.logo_me {
+  text-align: center;
+  position: relative;
+}
+.lme {
+  background-image: url("../images/logo_me_f.svg");
+  width: 12vw;
+  height: 6vw;
+  top: 7vw;
+  left: 10vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+.logo_hse {
+  text-align: center;
+  position: relative;
+}
+.lhse {
+  background-image: url("../images/logo_hse_f.svg");
+  width: 12vw;
+  height: 6vw;
+  top: 7vw;
+  left: 10vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
