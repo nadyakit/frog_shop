@@ -397,11 +397,29 @@ body {
   background-image: url("../images/space_main.svg");
   width: 100vw;
   height: 100vw;
-  opacity: .4;
+  /* opacity: .4; */
   top: 3.5vw;
   background-repeat: no-repeat;
-  text-decoration: none;
   background-size: contain;
   position: absolute;
   display: inline-block;
+}
+.h3_space > a {
+  text-decoration: none;
+  font-size: 48px;
+  color: #F5F5E9;
+  position: absolute;
+  display: inline-block;
+  left: 2vw;
+  top: 1.8vw;
+}
+.text_space p {
+  position: absolute;
+  display: inline-block;
+  color: #F5F5E9;
+  font-size: 36px;
+  width: 47vw;
+  left: 34.5vw;
+  top: 1.8vw;
+  text-align: justify;
 }
