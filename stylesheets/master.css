@@ -449,3 +449,15 @@ body {
   margin: auto;
   padding-top: 4vw;
 }
+ input[type="text"] {
+   display: relative;
+   width: 25vw;
+   height: 34px;
+   margin: 12px auto 2px;
+   font-size: 18px;
+   color: : rgba(96, 45, 145, 0.3);
+   background-color: #F5F5E9;
+   border: 1px solid #602D91;
+   border-radius: 50px;
+   
+ }
