@@ -391,7 +391,7 @@ body {
 }
 .space {
   position: relative;
-  height: 42vw;
+  height: 38.4vw;
 }
 .s_picture {
   background-image: url("../images/space_main.svg");
@@ -424,10 +424,10 @@ body {
   text-align: justify;
 }
 .footer {
-  display: grid;
+  display: flex;
   flex-wrap: wrap;
-  grid-area: footer;
   position: relative;
+  flex-direction: row;
   width: 100vw;
   height: 20vw;
   border-top: 1px solid #602D91;
@@ -435,4 +435,9 @@ body {
 .form, .logo_me, .logo_hse {
   position: relative;
   width: 33vw;
+  background-color: #F5F5E9;
+  border-right: 1px solid #602D91;
+}
+.logo_hse {
+  border-right: none;
 }
