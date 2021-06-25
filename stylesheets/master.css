@@ -411,7 +411,7 @@ body {
   position: absolute;
   display: inline-block;
   left: 2vw;
-  top: 1.8vw;
+  top: 6vw;
 }
 .text_space p {
   position: absolute;
@@ -420,7 +420,7 @@ body {
   font-size: 36px;
   width: 47vw;
   left: 34.5vw;
-  top: 1.8vw;
+  top: 6vw;
   text-align: justify;
 }
 .footer {
