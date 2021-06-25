@@ -1053,7 +1053,7 @@ ul.breadcrumb li a:hover {
   margin-top: 8px;
 }
 .end {
-  height: 60vw;
+  height: 50vw;
   position: relative;
   display: inline-block;
 }
@@ -1071,26 +1071,26 @@ ul.breadcrumb li a:hover {
 }
 .itog1 {
   left: 5vw;
-  top: 10vw;
+  top: 13vw;
 }
 .itog2 {
   left: 8vw;
-  top: 15vw;
+  top: 25vw;
 }
 .itog3 {
   left: 4vw;
-  top: 11vw;
+  top: 14vw;
 }
 .itog4 {
   left: 10vw;
-  top: 10vw;
+  top: 13vw;
 }
 .itog5{
   left: 60vw;
-  top: -15vw;
+  top: -12vw;
 }
 .itog6{
-  top: -20vw;
+  top: -17vw;
 }
 .itog1:hover {
   z-index: 1;
