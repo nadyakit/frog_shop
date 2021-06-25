@@ -846,7 +846,7 @@ ul.breadcrumb li a:hover {
 }
 .children_222 {
   position: relative;
-  height: 50vw;
+  height: 100vw;
 }
 .vanya_wr {
   display: flex;
@@ -948,4 +948,30 @@ ul.breadcrumb li a:hover {
   font-size: 36px;
   height: 3vw;
   margin-top: 8px;
+}
+.dima_wr {
+  display: flex;
+  position: absolute;
+  width: 20vw;
+  height: 32vw;
+  flex-direction: column;
+  top: 46vw;
+  left: 12vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.dima {
+  background-image: url("../images/dima1.svg");
+  width: 28vw;
+  height: 32vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.dima_wr h3 {
+  font-size: 36px;
+  height: 3vw;
+  margin-top: 8px;
+  margin-bottom: 4px;
 }
