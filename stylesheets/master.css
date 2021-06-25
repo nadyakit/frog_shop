@@ -846,7 +846,7 @@ ul.breadcrumb li a:hover {
 }
 .children_222 {
   position: relative;
-  height: 100vw;
+  height: 80vw;
 }
 .vanya_wr {
   display: flex;
@@ -1051,4 +1051,68 @@ ul.breadcrumb li a:hover {
   font-size: 36px;
   height: 2.5vw;
   margin-top: 8px;
+}
+.end {
+  height: 60vw;
+  position: relative;
+  display: inline-block;
+}
+.end h3 {
+  position: absolute;
+  width: 30vw;
+  color: #602D91;
+  font-size: 36px;
+  left: 2vw;
+  top: 6vw;
+}
+.end img {
+  position: relative;
+  border: 1px solid #602D91;
+}
+.itog1 {
+  left: 5vw;
+  top: 10vw;
+}
+.itog2 {
+  left: 8vw;
+  top: 15vw;
+}
+.itog3 {
+  left: 4vw;
+  top: 11vw;
+}
+.itog4 {
+  left: 10vw;
+  top: 10vw;
+}
+.itog5{
+  left: 60vw;
+  top: -15vw;
+}
+.itog6{
+  top: -20vw;
+}
+.itog1:hover {
+  z-index: 1;
+  border-color: #FF3F3D;
+}
+.itog2:hover {
+  z-index: 1;
+  border-color: #FF3F3D;
+}
+.itog3:hover {
+  z-index: 1;
+  border-color: #FF3F3D;
+}
+.itog4:hover {
+  z-index: 1;
+  border-color: #FF3F3D;
+}
+.itog5:hover {
+  z-index: 1;
+  border-color: #FF3F3D;
+}
+.itog6:hover {
+  z-index: 1;
+  border-color: #FF3F3D;
 }
