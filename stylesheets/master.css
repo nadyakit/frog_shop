@@ -1116,3 +1116,24 @@ ul.breadcrumb li a:hover {
   z-index: 1;
   border-color: #FF3F3D;
 }
+.prostransto {
+  position: relative;
+  /* display: block; */
+  background: black;
+  /* overflow: hidden; */
+  /* width: 100vw; */
+  height: 80vw;
+}
+.background_animation {
+  position: absolute;
+  display: block;
+}
+.circle {
+  width: 70vw;
+  height: 80vw;
+}
+.cl0 {
+  background: #602D91;
+  top: 80vw;
+  left: 10vw;
+}
