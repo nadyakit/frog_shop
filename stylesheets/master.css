@@ -92,14 +92,14 @@ body {
 }
 .hello {
   position: relative;
-  height: 75vw;
+  height: 55vw;
 }
 .hello_frog_1 {
   background-image: url("../images/hello_frog_1.svg");
   width: 15vw;
   height: 18vw;
-  left: 18.6vw;
-  top: 23.6vw;
+  left: 24vw;
+  top: 20vw;
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
@@ -109,7 +109,7 @@ body {
   background-image: url("../images/hello_frog_2.svg");
   width: 15vw;
   height: 22vw;
-  top: 20vw;
+  top: 16vw;
   left: 32vw;
   background-repeat: no-repeat;
   background-size: contain;
@@ -132,7 +132,7 @@ body {
   background-image: url("../images/hello_frog_4.svg");
   width: 15vw;
   height: 22vw;
-  top: 60vw;
+  top: 50vw;
   left: 84vw;
   background-repeat: no-repeat;
   background-size: contain;
@@ -142,7 +142,7 @@ body {
 .text_hello {
   position: absolute;
   display: inline-block;
-  top: 47.35vw;
+  top: 32vw;
   left: 1.8vw;
   color: #602D91;
   font-size: 72px;
