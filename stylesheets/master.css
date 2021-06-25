@@ -682,9 +682,45 @@ ul.breadcrumb li a:hover {
   color: #602D91;
   font-size: 18px;
   position: absolute;
-  top: 8.6vw;
+  top: 8.2vw;
 }
-.h3_otstup_allev {
+.h3_otstup_allev1 {
+  position: relative;
+  height: auto;
+}
+.all_ev2 {
+  background-image: url("../images/all_ev_2.svg");
+  width: 21.3vw;
+  height: 32vw;
+  top: 21vw;
+  left: 35vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
+  transition: 0.1s linear;
+}
+.all_ev2:hover {
+  box-shadow: 0 4px 50px rgba(255,63,62,0.50);
+  transition: 0.15s linear;
+}
+.all_ev2_h3 > a {
+  text-decoration: none;
+  font-size: 36px;
+  color: #602D91;
+  position: absolute;
+  display: inline-block;
+  left: 35vw;
+  top: 54vw;
+}
+.date_allev2 {
+  color: #602D91;
+  font-size: 18px;
+  position: absolute;
+  top: 3vw;
+}
+.h3_otstup_allev2 {
   position: relative;
   height: auto;
 }
