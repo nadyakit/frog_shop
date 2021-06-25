@@ -1122,7 +1122,7 @@ ul.breadcrumb li a:hover {
   background: black;
   overflow: hidden;
   width: 100vw;
-  height: 80vw;
+  height: 100vw;
 }
 .background-animation {
   position: absolute;
@@ -1174,4 +1174,57 @@ ul.breadcrumb li a:hover {
   color: #F5F5E9;
   left: 2vw;
   text-align: justify;
+}
+.plakati_vne1 {
+  position: absolute;
+  height: 3vw;
+  width: 2vw;
+  left: 60vw;
+  top: 25vw;
+  background-image: url("../images/plakat_vne1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  /* animation: plakati_vne1 1s steps(1) infinite ease;
+  -webkit-animation: plakati_vne1 1s steps(1) infinite ease; */
+}
+
+/* @keyframes plakati_vne1 {
+  0% {background-image: url("../images/plakat_vne1.svg");}
+  50% {background-image: url("../images/plakat_vne3.svg");}
+  100% {background-image: url("../images/plakat_vne2.svg");}
+} */
+.plakati_vne1:hover {
+  height: 50vw;
+  width: 70vw;
+}
+.plakati_vne2 {
+  position: absolute;
+  height: 3vw;
+  width: 2vw;
+  left: 20vw;
+  top: 40vw;
+  background-image: url("../images/plakat_vne2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.plakati_vne2:hover {
+  height: 37vw;
+  width: 55vw;
+}
+.plakati_vne3 {
+  position: absolute;
+  height: 3vw;
+  width: 2vw;
+  left: 40vw;
+  top: 60vw;
+  background-image: url("../images/plakat_vne3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.plakati_vne3:hover {
+  height: 37vw;
+  width: 55vw;
 }
