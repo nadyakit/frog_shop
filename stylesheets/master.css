@@ -531,3 +531,18 @@ button:active {
   background-size: contain;
   position: absolute;
 }
+.wrapper_about {
+  position: relative;
+  height: 60vw;
+}
+.wrapper_about p {
+  position: absolute;
+  width: 47vw;
+  height: 33vw;
+  text-align: justify;
+  font-size: 36px;
+  font-family: "Helvetica";
+  color: #602D91;
+  left: 2vw;
+  top: 23vw;
+}
