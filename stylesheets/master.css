@@ -546,3 +546,55 @@ button:active {
   left: 2vw;
   top: 23vw;
 }
+.who_we_are_about {
+  text-decoration: none;
+  font-size: 18px;
+  color: #F5F5E9;
+  background-color: #602D91;
+  width: 23vw !important;
+  padding: 7px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+}
+.shop_about, .frog_about, .events_about {
+  text-decoration: none;
+  font-size: 18px;
+  color: #602D91;
+  background-color: #F5F5E9;
+  display: inline-block;
+  text-align: center;
+  width: 23vw !important;
+  padding: 7px 0;
+  border-radius: 30px;
+  border: 1px solid #602D91;
+}
+.a_fr1, .a_fr2, .a_fr3 {
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
+
+}
+.a_fr1 {
+  background-image: url("../images/about_f1.svg");
+  width: 10vw;
+  height: 14vw;
+  top: 19vw;
+  left: 65vw;
+}
+.a_fr2 {
+  background-image: url("../images/about_f2.svg");
+  width: 12vw;
+  height: 16vw;
+  top: 25vw;
+  left: 80vw;
+}
+.a_fr3 {
+  background-image: url("../images/about_f3.svg");
+  width: 24vw;
+  height: 24vw;
+  top: 35vw;
+  left: 56vw;
+}
