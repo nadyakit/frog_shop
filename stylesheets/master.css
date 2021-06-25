@@ -598,7 +598,7 @@ button:active {
   top: 35vw;
   left: 56vw;
 }
-.navigation_about{
+.navigation {
   margin-left: 2vw;
   margin-top: -2vw;
 }
@@ -624,4 +624,27 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #602D91;
   text-decoration: underline;
+}
+.events_all_ev {
+  text-decoration: none;
+  font-size: 18px;
+  color: #F5F5E9;
+  background-color: #602D91;
+  width: 23vw !important;
+  padding: 7px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+}
+.shop_all_ev, .frog_all_ev, .who_we_are_all_ev {
+  text-decoration: none;
+  font-size: 18px;
+  color: #602D91;
+  background-color: #F5F5E9;
+  display: inline-block;
+  text-align: center;
+  width: 23vw !important;
+  padding: 7px 0;
+  border-radius: 30px;
+  border: 1px solid #602D91;
 }
