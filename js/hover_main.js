@@ -149,3 +149,18 @@ $(document).ready(function() {
     $('.date_allev2').css('color', '#602D91');
   })
 });
+
+$(document).ready(function() {
+  $('.all_ev3').hover(function(){
+    $('.h3_otstup_allev3').css('color', '#FF3F3D');
+  }),
+  $('.all_ev3').mouseout(function(){
+    $('.h3_otstup_allev3').css('color', '#602D91');
+  }),
+  $('.all_ev3').hover(function(){
+    $('.date_allev3').css('color', '#FF3F3D');
+  }),
+  $('.all_ev3').mouseout(function(){
+    $('.date_allev3').css('color', '#602D91');
+  })
+});
