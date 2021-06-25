@@ -1165,3 +1165,13 @@ ul.breadcrumb li a:hover {
   width: 35vw;
   height: 35vw;
 }
+
+.prostransto p {
+  font-size: 36px;
+  position: absolute;
+  width: 45vw;
+  top: 20vw;
+  color: #F5F5E9;
+  left: 2vw;
+  text-align: justify;
+}
