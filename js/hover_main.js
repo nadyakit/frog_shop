@@ -110,3 +110,12 @@ $(document).ready(function() {
     $('.date_lsc2').css('color', '#602D91');
   })
 });
+
+$(document).ready(function() {
+  $('.h3_space').hover(function(){
+    $('.s_picture').css('filter', 'blur(8px)');
+  }),
+  $('.h3_space').mouseout(function(){
+    $('.s_picture').css('filter', 'blur(0px)');
+  })
+});
