@@ -1333,17 +1333,17 @@ ul.breadcrumb li a:hover {
 .item_4 {
   display: flex;
   position: absolute;
-  width: 40vw;
-  height: 50vw;
+  width: 20vw;
+  height: 30vw;
   flex-direction: column;
   top: 20vw;
-  left: 75vw;
+  left: 80vw;
   color: #602D91;
   font-family: "Helvetica";
 }
 .rubashka {
   background-image: url("../images/rubashka1.svg");
-  width: 40vw;
+  width: 20vw;
   height: 30vw;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -1501,6 +1501,56 @@ ul.breadcrumb li a:hover {
   display: inline-block;
 }
 .item_10 h3 {
+  font-size: 36px;
+  height: 3vw;
+  margin-top: 8px;
+}
+.item_11 {
+  display: flex;
+  position: absolute;
+  width: 15vw;
+  height: 20vw;
+  flex-direction: column;
+  top: 120vw;
+  left: 85vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.kofta2 {
+  background-image: url("../images/kofta2.svg");
+  width: 16vw;
+  height: 15vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.item_11 h3 {
+  font-size: 36px;
+  height: 5.1vw;
+  margin-top: 8px;
+}
+.item_12 {
+  display: flex;
+  position: absolute;
+  width: 15vw;
+  height: 25vw;
+  flex-direction: column;
+  top: 120vw;
+  left: 85vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.kofta3 {
+  background-image: url("../images/kofta3.svg");
+  width: 16vw;
+  height: 15vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.item_12 h3 {
   font-size: 36px;
   height: 3vw;
   margin-top: 8px;
