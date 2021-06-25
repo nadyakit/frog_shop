@@ -832,7 +832,6 @@ ul.breadcrumb li a:hover {
   background-repeat: no-repeat;
   text-decoration: none;
   background-size: contain;
-  position: absolute;
   display: inline-block;
 }
 .children_text p {
@@ -848,4 +847,30 @@ ul.breadcrumb li a:hover {
 .children_222 {
   position: relative;
   height: 50vw;
+}
+.vanya_wr {
+  display: flex;
+  position: absolute;
+  width: 20vw;
+  height: 25vw;
+  flex-direction: column;
+  top: 6vw;
+  left: 2vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.vanya {
+  background-image: url("../images/vanya.svg");
+  width: 20vw;
+  height: 20vw;
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.vanya_wr h3 {
+  font-size: 36px;
+  height: 3vw;
+  margin-top: 8px;
 }
