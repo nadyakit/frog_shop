@@ -1002,3 +1002,53 @@ ul.breadcrumb li a:hover {
   background-size: contain;
   display: inline-block;
 }
+.ira_wr {
+  display: flex;
+  position: absolute;
+  width: 10vw;
+  height: 12vw;
+  flex-direction: column;
+  top: 40vw;
+  left: 49.8vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.ira {
+  background-image: url("../images/ira.svg");
+  width: 28vw;
+  height: 28vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.ira_wr h3 {
+  font-size: 36px;
+  height: 3vw;
+  margin-top: 8px;
+}
+.sasha_wr {
+  display: flex;
+  position: absolute;
+  width: 20vw;
+  height: 32vw;
+  flex-direction: column;
+  top: 47vw;
+  left: 74vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.sasha {
+  background-image: url("../images/sasha.svg");
+  width: 23,2vw;
+  height: 27vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.sasha_wr h3 {
+  font-size: 36px;
+  height: 2.5vw;
+  margin-top: 8px;
+}
