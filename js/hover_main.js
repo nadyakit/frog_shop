@@ -164,3 +164,18 @@ $(document).ready(function() {
     $('.date_allev3').css('color', '#602D91');
   })
 });
+
+$(document).ready(function() {
+  $('.all_ev4').hover(function(){
+    $('.h3_otstup_allev4').css('color', '#FF3F3D');
+  }),
+  $('.all_ev4').mouseout(function(){
+    $('.h3_otstup_allev4').css('color', '#602D91');
+  }),
+  $('.all_ev4').hover(function(){
+    $('.date_allev4').css('color', '#FF3F3D');
+  }),
+  $('.all_ev4').mouseout(function(){
+    $('.date_allev4').css('color', '#602D91');
+  })
+});
