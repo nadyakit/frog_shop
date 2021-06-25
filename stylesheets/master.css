@@ -1386,8 +1386,8 @@ ul.breadcrumb li a:hover {
   width: 17vw;
   height: 12vw;
   flex-direction: column;
-  top: 50vw;
-  left: 26vw;
+  top: 67.6vw;
+  left: 24vw;
   color: #602D91;
   font-family: "Helvetica";
 }
@@ -1411,7 +1411,7 @@ ul.breadcrumb li a:hover {
   width: 20vw;
   height: 30vw;
   flex-direction: column;
-  top: 60vw;
+  top: 70vw;
   left: 80vw;
   color: #602D91;
   font-family: "Helvetica";
@@ -1427,6 +1427,56 @@ ul.breadcrumb li a:hover {
 }
 .item_7 h3 {
   font-size: 36px;
-  height: 3vw;
+  height: 3.2vw;
+  margin-top: 8px;
+}
+.item_8 {
+  display: flex;
+  position: absolute;
+  width: 15vw;
+  height: 17vw;
+  flex-direction: column;
+  top: 80vw;
+  left: 45vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.tufli2 {
+  background-image: url("../images/tufli2.svg");
+  width: 15vw;
+  height: 17vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.item_8 h3 {
+  font-size: 36px;
+  height: 4vw;
+  margin-top: 8px;
+}
+.item_9 {
+  display: flex;
+  position: absolute;
+  width: 20vw;
+  height: 35vw;
+  flex-direction: column;
+  top: 100vw;
+  left: 24vw;
+  color: #602D91;
+  font-family: "Helvetica";
+}
+.costum {
+  background-image: url("../images/costum.svg");
+  width: 20vw;
+  height: 37vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.item_9 h3 {
+  font-size: 36px;
+  height: 3.3vw;
   margin-top: 8px;
 }
