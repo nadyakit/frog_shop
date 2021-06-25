@@ -122,15 +122,30 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.all_ev1').hover(function(){
-    $('.h3_otstup_allev').css('color', '#FF3F3D');
+    $('.h3_otstup_allev1').css('color', '#FF3F3D');
   }),
   $('.all_ev1').mouseout(function(){
-    $('.h3_otstup_allev').css('color', '#602D91');
+    $('.h3_otstup_allev1').css('color', '#602D91');
   }),
   $('.all_ev1').hover(function(){
     $('.date_allev1').css('color', '#FF3F3D');
   }),
   $('.all_ev1').mouseout(function(){
     $('.date_allev1').css('color', '#602D91');
+  })
+});
+
+$(document).ready(function() {
+  $('.all_ev2').hover(function(){
+    $('.h3_otstup_allev2').css('color', '#FF3F3D');
+  }),
+  $('.all_ev2').mouseout(function(){
+    $('.h3_otstup_allev2').css('color', '#602D91');
+  }),
+  $('.all_ev2').hover(function(){
+    $('.date_allev2').css('color', '#FF3F3D');
+  }),
+  $('.all_ev2').mouseout(function(){
+    $('.date_allev2').css('color', '#602D91');
   })
 });
