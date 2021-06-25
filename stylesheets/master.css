@@ -975,3 +975,30 @@ ul.breadcrumb li a:hover {
   margin-top: 8px;
   margin-bottom: 4px;
 }
+.dima_wr2 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 10vw;
+  left: 32vw;
+  top: 48.5vw;
+}
+.dima2 {
+  background-image: url("../images/dima2.svg");
+  width: 10vw;
+  height: 12vw;
+  margin-bottom: 1vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
+.dima3 {
+  background-image: url("../images/dima3.svg");
+  width: 10vw;
+  height: 12vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  display: inline-block;
+}
