@@ -819,3 +819,33 @@ ul.breadcrumb li a:hover {
   border-radius: 30px;
   border: 1px solid #602D91;
 }
+.children_111 {
+  position: relative;
+  height: 50vw;
+}
+.children_pic1 {
+  background-image: url("../images/children_huge.svg");
+  position: absolute;
+  width: 100vw;
+  height: 36.5vw;
+  top: 17.5vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  background-size: contain;
+  position: absolute;
+  display: inline-block;
+}
+.children_text p {
+  position: absolute;
+  display: inline-block;
+  color: #F5F5E9;
+  font-size: 36px;
+  width: 47vw;
+  left: 2vw;
+  top: 21vw;
+  text-align: justify;
+}
+.children_222 {
+  position: relative;
+  height: 50vw;
+}
